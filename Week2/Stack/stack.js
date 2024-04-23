@@ -26,7 +26,13 @@ class Stack{
     isEmpty(){
         return this.stack.length=== 0;
     }
-
+sum(){
+    let sum=0;
+for(let i=0;i<this.stack.length;i++){
+    sum += this.stack[i]
+}
+return sum;
+}
 
     print(){
         if(this.stack.length ===0){
@@ -48,4 +54,4 @@ stack.push(90)
 stack.pop()
 
 stack.print()
-
+console.log(stack.sum())
