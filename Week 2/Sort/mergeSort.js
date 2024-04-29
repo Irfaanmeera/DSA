@@ -16,7 +16,7 @@ function mergeSort(arr){
         let sortedArr=[]  //the sorted array elements will be stored 
         while(leftArr.length && rightArr.length){ //while loop will go until the arrays becomes empty
             if(leftArr[0] <= rightArr[0]){    //if first element of left array is less than first element of right array, then leftArr element is been pushed to sorted array and vice versa
-                sortedArr.push(leftArr.shift())   //the first element from left array will  be removed as its been added to the sorted array.NOw the next element becomes first element.
+                sortedArr.push(leftArr.shift())   //the first element from left array will  be removed as its been added to the sorted array.NOw the next elementin the left array becomes first element.
             }else{
                 sortedArr.push(rightArr.shift())
             }
